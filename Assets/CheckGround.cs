@@ -15,12 +15,20 @@ public class CheckGround : MonoBehaviour
     }
      void OnCollisionStay2D(Collision2D colli)
     {
-        player.grounded = true;
+        if(colli.gameObject.tag == "Platform")
+        {
+            player.grounded = true;
+        }
+       
 
     }
     void OnCollisionExit2D(Collision2D colli)
     {
-        player.grounded = false;
+        if (colli.gameObject.tag == "Platform")
+        {
+            player.grounded = false;
+        }
+       
     }
 
     // Update is called once per frame
