@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CheckGround.cs" />
+    <Compile Include="Assets\DrawSceneLine.cs" />
+    <Compile Include="Assets\PlataformaMovil.cs" />
     <Compile Include="Assets\player_control.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/ABGS/ESPOL/videojuegos/jueguete-garces/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
